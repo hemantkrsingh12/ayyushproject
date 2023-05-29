@@ -98,7 +98,7 @@
 
         </ul>
 
-        <nav class="navbar data-navbar" data-navbar>
+        <nav class="navbar" data-navbar>
 
           <div class="navbar-top">
 
@@ -108,7 +108,8 @@
 
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
               <ion-icon name="close-outline"></ion-icon>
-            </button> 
+            </button>
+
           </div>
 
           <ul class="navbar-list">
