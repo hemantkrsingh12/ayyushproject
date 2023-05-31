@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.register {
+  background-image: url("./assets/images/hero-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  background-blend-mode: overlay;
+  min-height: 602px;
+}
+
+.head {
+  height: 16vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.helpline-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  left: 20px;
+  top:30px;
+}
+.icon {
+  background-color: hsl(214, 57%, 51%);
+  padding: 10px;
+  border-radius: 50%;
+  transform: rotateY(178deg);
+}
+.btn{
+    padding: 10px 20px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    border-radius: 10px;
+    background-color: hsl(214, 57%, 51%);
+    border: none;
+    outline: none;
+    color:#fff;
+    font-size: 16px;
+}
+#signed, #register{
+    cursor: pointer;
+}

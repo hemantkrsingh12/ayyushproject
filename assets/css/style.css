@@ -1296,3 +1296,20 @@ address {
   .container { max-width: 1180px; }
 
 }
+#show{
+display: none;
+}
+
+
+.showed{
+  display: grid !important;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+
+}
+#packageshow{
+  display: none;
+}
+.showed1{
+  display: inline-block !important;
+}

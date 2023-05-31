@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign In</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        text-align: center;
+        margin-top: 2px;
+      }
+
+      .container h1 {
+        color: #333;
+      }
+
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+
+      input[type="submit"] {
+        background-color: hsl(214, 57%, 51%);
+        color: white;
+        padding: 14px 20px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type="submit"]:hover {
+        background-color: hsl(214, 127%, 34%);
+      }
+    </style>
+    <link rel="stylesheet" href="container.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="register">
+      
+      <div class="head">
+        <div class="aman">
+          <a href="tel:+01123456790" class="helpline-box">
+            <div class="icon"><i class="fas fa-phone"></i></div>
+            <div class="wrapper">
+              <p class="helpline-title">For Further Inquires :</p>
+
+              <p class="helpline-number">+91 9045669422</p>
+            </div>
+          </a>
+        </div>
+        <img src="./assets/images/logo.svg" alt="" />
+
+      <button class="btn" id="register">Register</button>
+      </div>
+
+      <div class="container">
+        <h1>Sign In</h1>
+        <form>
+          <input type="text" placeholder="Username" required />
+          <br />
+          <input type="password" placeholder="Password" required />
+          <br />
+          <input type="submit" value="Sign In" class="btn-primary" />
+        </form>
+      </div>
+    </div>
+    <script>
+      document.getElementById("register").addEventListener("click",()=>{
+        window.location.href="register.html"
+      })
+    </script>
+  </body>
+</html>

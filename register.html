@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .container h1 {
+      color: #333;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    input[type="submit"] {
+      background-color:  hsl(214, 57%, 51%);
+      color: white;
+      padding: 14px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: hsl(214, 127%, 34%);
+    }
+  </style>
+  <link rel="stylesheet" href="container.css">
+</head>
+<body>
+ <div class="register">
+  <div class="head">
+    <div class="aman">
+      <a href="tel:+01123456790" class="helpline-box">
+        <div class="icon"><i class="fas fa-phone"></i></div>
+        <div class="wrapper">
+          <p class="helpline-title">For Further Inquires :</p>
+
+          <p class="helpline-number">+91 9045669422</p>
+        </div>
+      </a>
+    </div>
+    <img src="./assets/images/logo.svg" alt="" />
+
+  <button class="btn" id="signed">SignIn</button>
+  </div>
+    <div class="container">
+        <h1>Register</h1>
+        <form>
+          <input type="text" placeholder="UserName" required>
+          <br>
+          <input type="email" placeholder="Email" required>
+          <br>
+          <input type="password" placeholder="Password" required>
+          <br>
+          <input type="password" placeholder="Confirm Password" required>
+          <br>
+          <input type="submit" value="Register" class="btnsubmit">
+        </form>
+      </div>
+ </div>
+ <script>
+  document.getElementById("signed").addEventListener("click",()=>{
+    window.location.href="signin.html"
+  });
+ </script>
+</body>
+</html>
